@@ -1,0 +1,98 @@
+﻿  main.cpp
+d:\jvklibevent\main.cpp(108): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(182): note: 参见“strerror”的声明
+  buffer.c
+d:\jvklibevent\src\buffer.c(3096): warning C4244: “函数”: 从“const __int64”转换到“size_t”，可能丢失数据
+d:\jvklibevent\src\buffer.c(3107): warning C4244: “函数”: 从“__int64”转换到“unsigned int”，可能丢失数据
+d:\jvklibevent\src\buffer.c(3107): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\corecrt_io.h(523): note: 参见“read”的声明
+d:\jvklibevent\src\buffer.c(3166): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\corecrt_io.h(459): note: 参见“close”的声明
+d:\jvklibevent\src\buffer.c(3225): warning C4244: “=”: 从“__int64”转换到“ev_misalign_t”，可能丢失数据
+d:\jvklibevent\src\buffer.c(3226): warning C4244: “=”: 从“__int64”转换到“size_t”，可能丢失数据
+d:\jvklibevent\src\buffer.c(3227): warning C4244: “=”: 从“__int64”转换到“size_t”，可能丢失数据
+d:\jvklibevent\src\buffer.c(3245): warning C4244: “函数”: 从“unsigned __int64”转换到“SIZE_T”，可能丢失数据
+d:\jvklibevent\src\buffer.c(3251): warning C4244: “=”: 从“unsigned __int64”转换到“size_t”，可能丢失数据
+d:\jvklibevent\src\buffer.c(3252): warning C4244: “=”: 从“unsigned __int64”转换到“ev_misalign_t”，可能丢失数据
+d:\jvklibevent\src\buffer.c(3253): warning C4244: “=”: 从“__int64”转换到“size_t”，可能丢失数据
+d:\jvklibevent\src\buffer.c(3261): warning C4244: “=”: 从“__int64”转换到“size_t”，可能丢失数据
+d:\jvklibevent\src\buffer.c(3262): warning C4244: “=”: 从“__int64”转换到“size_t”，可能丢失数据
+d:\jvklibevent\src\buffer.c(3266): warning C4244: “+=”: 从“__int64”转换到“size_t”，可能丢失数据
+  bufferevent.c
+  bufferevent_async.c
+  bufferevent_filter.c
+  bufferevent_openssl.c
+d:\jvklibevent\include\openssl\lhash.h(198): warning C4090: “函数”: 不同的“const”限定符
+d:\jvklibevent\src\bufferevent_openssl.c(552): warning C4244: “=”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+d:\jvklibevent\src\bufferevent_openssl.c(554): warning C4244: “=”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+d:\jvklibevent\src\bufferevent_openssl.c(560): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+d:\jvklibevent\src\bufferevent_openssl.c(561): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+  bufferevent_pair.c
+  bufferevent_ratelim.c
+  bufferevent_sock.c
+  buffer_iocp.c
+  devpoll.c
+  epoll.c
+  epoll_sub.c
+  evdns.c
+d:\jvklibevent\src\evdns.c(3821): warning C4996: 'GetVersion': 被声明为已否决
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\um\sysinfoapi.h(135): note: 参见“GetVersion”的声明
+  event.c
+  event_iocp.c
+  event_tagging.c
+  evmap.c
+  evport.c
+  evrpc.c
+  evthread.c
+  正在生成代码...
+  正在编译...
+  evthread_pthread.c
+  evthread_win32.c
+  evutil.c
+d:\jvklibevent\src\evutil.c(115): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\corecrt_io.h(419): note: 参见“_open”的声明
+d:\jvklibevent\src\evutil.c(1842): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(1400): note: 参见“_vsnprintf”的声明
+d:\jvklibevent\src\evutil.c(1968): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\jvklibevent\src\evutil.c(1996): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+d:\jvklibevent\src\evutil.c(2396): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdlib.h(1191): note: 参见“getenv”的声明
+d:\jvklibevent\src\evutil.c(2508): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+d:\jvklibevent\src\evutil.c(2509): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  evutil_rand.c
+  evutil_time.c
+d:\jvklibevent\src\evutil_time.c(166): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\time.h(496): note: 参见“gmtime”的声明
+d:\jvklibevent\src\evutil_time.c(537): warning C4244: “=”: 从“__int64”转换到“long”，可能丢失数据
+d:\jvklibevent\src\evutil_time.c(542): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+  http.c
+d:\jvklibevent\src\http.c(1637): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\stdio.h(2263): note: 参见“sscanf”的声明
+  kqueue.c
+  listener.c
+  log.c
+d:\jvklibevent\src\log.c(116): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(182): note: 参见“strerror”的声明
+d:\jvklibevent\src\log.c(127): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17134.0\ucrt\string.h(182): note: 参见“strerror”的声明
+  poll.c
+  select.c
+  signal.c
+  strlcpy.c
+  win32select.c
+  正在生成代码...
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+bufferevent_async.obj : warning LNK4006: _a 已在 bufferevent.obj 中定义；已忽略第二个定义
+bufferevent_ratelim.obj : warning LNK4006: _a 已在 bufferevent.obj 中定义；已忽略第二个定义
+event.obj : warning LNK4006: _a 已在 bufferevent.obj 中定义；已忽略第二个定义
+event_iocp.obj : warning LNK4006: _a 已在 bufferevent.obj 中定义；已忽略第二个定义
+evmap.obj : warning LNK4006: _a 已在 bufferevent.obj 中定义；已忽略第二个定义
+listener.obj : warning LNK4006: _a 已在 bufferevent.obj 中定义；已忽略第二个定义
+signal.obj : warning LNK4006: _a 已在 bufferevent.obj 中定义；已忽略第二个定义
+win32select.obj : warning LNK4006: _a 已在 bufferevent.obj 中定义；已忽略第二个定义
+D:\Jvklibevent\Debug\Jvklibevent.exe : warning LNK4088: 因 /FORCE 选项生成了映像；映像可能不能运行
+  Jvklibevent.vcxproj -> D:\Jvklibevent\Debug\Jvklibevent.exe
